@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # vuejs-project
 
 ## Project setup
@@ -26,4 +25,3 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 =======
 # Vuejs-WordCount
 Vuejs project to upload txt file and show the content of it and count the appearance of each character
->>>>>>> origin/master
