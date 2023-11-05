@@ -14,7 +14,7 @@
     },
     computed: {
       wordCount() {
-        const words = this.fileContent.toLowerCase().match(/\b\w+\b/g);
+        const words = this.fileContent.toLowerCase().match(/\b\w+\b/g) || []; // Split content into lowercase words
         const wordCount = {};
   
         if (words) {
@@ -32,4 +32,3 @@
     },
   };
   </script>
-  
