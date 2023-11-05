@@ -1,27 +1,27 @@
-# vuejs-project
+# Vue.js Word Count App
 
-## Project setup
-```
+This is a simple Vue.js application that allows users to upload a .txt file and counts the occurrence of each word in the loaded file.
+
+## Project Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/username/vuejs-word-count.git
+
+# Navigate to the project directory
+cd vuejs-word-count
+
+# Install dependencies
 npm install
-```
+# or
+yarn install
 
-### Compiles and hot-reloads for development
-```
+# Run the application in development mode
 npm run serve
-```
+# or
+yarn serve
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-=======
-# Vuejs-WordCount
-Vuejs project to upload txt file and show the content of it and count the appearance of each character
+# Run unit tests
+npm run test:unit
+# or
+yarn test:unit
